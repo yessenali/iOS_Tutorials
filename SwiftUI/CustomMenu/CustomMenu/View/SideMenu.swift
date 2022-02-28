@@ -54,7 +54,7 @@ struct SideMenu: View {
                     CustomTabButton(icon: "rectangle.portrait.and.arrow.right", title: "Logout")
                 }
                 .padding()
-                .padding(.top,60)
+                .padding(.top,45)
             })
             
             // Max Width of screen width...
@@ -65,7 +65,7 @@ struct SideMenu: View {
         .padding(.leading, 10)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .background(
-            Color("BG")
+            Color.blue.opacity(0.4)
         )
         
     }

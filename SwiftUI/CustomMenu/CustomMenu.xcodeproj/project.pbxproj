@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04AD6EC727CC02FA002198C4 /* CustomTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AD6EC627CC02FA002198C4 /* CustomTabView.swift */; };
 		04B3320A27CBDCAB003CDF6B /* CustomMenuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3320927CBDCAB003CDF6B /* CustomMenuApp.swift */; };
 		04B3320C27CBDCAB003CDF6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3320B27CBDCAB003CDF6B /* ContentView.swift */; };
 		04B3320E27CBDCAB003CDF6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B3320D27CBDCAB003CDF6B /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04AD6EC627CC02FA002198C4 /* CustomTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabView.swift; sourceTree = "<group>"; };
 		04B3320627CBDCAB003CDF6B /* CustomMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04B3320927CBDCAB003CDF6B /* CustomMenuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMenuApp.swift; sourceTree = "<group>"; };
 		04B3320B27CBDCAB003CDF6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		04B3322627CBDCAB003CDF6B /* CustomMenuUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMenuUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		04B3323427CBDCE7003CDF6B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		04B3323627CBDD84003CDF6B /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		04B3323827CBF1C4003CDF6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 		04B3320827CBDCAB003CDF6B /* CustomMenu */ = {
 			isa = PBXGroup;
 			children = (
+				04B3323827CBF1C4003CDF6B /* Info.plist */,
 				04B3323327CBDCC9003CDF6B /* View */,
 				04B3320927CBDCAB003CDF6B /* CustomMenuApp.swift */,
 				04B3320B27CBDCAB003CDF6B /* ContentView.swift */,
@@ -136,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				04B3323427CBDCE7003CDF6B /* MainView.swift */,
+				04AD6EC627CC02FA002198C4 /* CustomTabView.swift */,
 				04B3323627CBDD84003CDF6B /* SideMenu.swift */,
 			);
 			path = View;
@@ -273,6 +278,7 @@
 			files = (
 				04B3320C27CBDCAB003CDF6B /* ContentView.swift in Sources */,
 				04B3323527CBDCE7003CDF6B /* MainView.swift in Sources */,
+				04AD6EC727CC02FA002198C4 /* CustomTabView.swift in Sources */,
 				04B3320A27CBDCAB003CDF6B /* CustomMenuApp.swift in Sources */,
 				04B3323727CBDD84003CDF6B /* SideMenu.swift in Sources */,
 			);
@@ -438,6 +444,7 @@
 				DEVELOPMENT_TEAM = ASSN5483LT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomMenu/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -467,6 +474,7 @@
 				DEVELOPMENT_TEAM = ASSN5483LT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomMenu/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
